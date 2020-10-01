@@ -1,0 +1,30 @@
+{
+  "name": "surenamedwang.github.io",
+  "version": "1.0.0",
+  "description": "solo node code",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surenamedwang/surenamedwang.github.io.git"
+  },
+  "keywords": [
+    "moses",
+    "programmer",
+    "it",
+    "profile"
+  ],
+  "author": "surenamedwang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surenamedwang/surenamedwang.github.io/issues"
+  },
+  "homepage": "https://github.com/surenamedwang/surenamedwang.github.io#readme"
+}
