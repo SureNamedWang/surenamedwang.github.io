@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odin Project Assignment- Landing Page</title>
+        <style>
+			body{
+				min-height: 100vh;
+				margin: 0;
+			}
+
+			.container{
+				padding: 0 10em;
+				color: antiquewhite;
+			}
+
+			.hero{
+				background-color: #1F2937;
+			}
+
+			.main-font{
+				font-size: 48px;
+				color:#F9FAF8;
+			}
+
+			.secondary-font{
+				color: #E5E7EB;
+				font-size: 18px;
+			}
+
+			.flex{
+				display: flex;
+			}
+
+			.flex-center{
+				justify-content: center;
+				align-items: center;
+			}
+
+            .navbar{
+				height: 7vh;
+				padding-top: 1em;
+			}
+
+			.logo{
+				padding: 1em;
+				font-weight: bolder;
+				color:#F9FAF8;
+				font-size: 24px;
+			}
+
+			.nav-items{
+				height: 100%;
+				margin-left: auto;
+			}
+
+			.nav-item{
+				margin: 0 1em;
+			}
+
+			.hero-main-text{
+				font-weight: 900;
+				margin: 0;
+			}
+
+			.hero-secondary-text{
+				word-spacing: 0.2em;
+				margin: 0px;
+			}
+
+			.hero-button{
+				margin: 1em 0px;
+				background-color: #3882f6;
+				padding: 0.5em 2em;
+				border-radius: 0.5em;
+				border-color: #1F2937;
+				font-weight: bold;
+			}
+
+			.hero-image{
+				background-color: #e5e7ebc5;
+				flex: 1;
+			}
+
+			.image-placeholder{
+				margin: 0px;
+				text-align: center;
+				height: 100%;
+			}
+
+			/* INFORMATION */
+
+			.information-header{
+				font-size: 36px;
+				font-weight: 900;
+				color:#1F2937;
+			}
+
+			.info{
+				flex:1;
+				margin: 0px 3em;
+			}
+
+			.info-image{
+				border: solid #3882f6 0.3em;
+				border-radius: 1em;
+				min-height: 10em;
+			}
+
+			.info-text{
+				font-size: 18px;
+				color:#1F2937;
+			}
+
+			/* Quotes */
+			.quotes{
+				background-color: #E5E7EB;
+				padding: 10em;
+				min-height: 25vh;
+			}
+
+			.quotes-text{
+				font-size: 36px;
+				color:#1F2937;
+			}
+
+			/* Call to action */
+			.call{
+				background-color: #3882f6;
+				border-radius: 0.5em;
+				padding: 3em 10em;
+				margin: 0px;
+			}
+
+			.call-text-main{
+				color: #F9FAF8;
+				font-size: 24px;
+				margin: 0px;
+			}
+
+			.call-text-secondary{
+				color: #E5E7EB;
+				font-size: 18px;
+				margin: 0px;
+			}
+
+			.call-button{
+				background-color: #3882f6;
+				border: solid #F9FAF8 0.2em;
+				border-radius: 0.5em;
+				padding: 0.2em 1em;
+			}
+        </style>
+    </head>
+    <body>
+		<main>
+			<nav class="hero container navbar flex">
+				<div class="logo flex flex-center">
+					Header Logo
+				</div>
+				<div class="nav-items flex flex-center secondary-font">
+					<div class="nav-item">
+						header link one
+					</div>
+					<div class="nav-item">
+						header link two
+					</div>
+					<div class="nav-item">
+						header link three
+					</div>
+				</div>
+			</nav>
+			<section class="hero container flex" style="padding-top: 8em;padding-bottom:8em">
+				<article style="flex:1;margin: 0em 2em;">
+					<p class="hero-main-text main-font">
+						This website is awesome
+					</p>
+					<p class="hero-secondary-text secondary-font">
+						This website has some subtext that goes here under the main title.It's smaller font and the color is lower in contrast
+					</p>
+					<button class="hero-button secondary-font">
+						Sign Up
+					</button>
+				</article>
+				<div class="hero-image">
+					<p class="image-placeholder flex flex-center">
+						This is placeholder for Image
+					</p>
+				</div>
+			</section>
+
+			<section class="container" style="margin: 5vh 0;">
+				<article>
+					<p class="information-header" style="text-align: center;">
+						Some random information.
+					</p>
+					<div class="flex">
+						<div class="info">
+							<div class="info-image">
+
+							</div>
+							<p class="info-text ">
+								this is some subtext under ilustrated image
+							</p>	
+						</div>
+						<div class="info">
+							<div class="info-image">
+
+							</div>
+							<p class="info-text ">
+								this is some subtext under ilustrated image
+							</p>	
+						</div>
+						<div class="info">
+							<div class="info-image">
+
+							</div>
+							<p class="info-text ">
+								this is some subtext under ilustrated image
+							</p>	
+						</div>
+						<div class="info">
+							<div class="info-image">
+
+							</div>
+							<p class="info-text ">
+								this is some subtext under ilustrated image
+							</p>	
+						</div>
+					</div>
+				</article>
+			</section>
+			<section class="container quotes">
+				<article>
+					<em class="quotes-text">
+						"This is an aspiring quotes, or a testimonial from a costumer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know that it looks nice."
+					</em>
+					<p class="quotes-text" style="font-weight: 900;text-align: right;">
+						-Thor, God of Thunder
+					</p>
+				</article>
+			</section>
+			<section class="container" style="padding:5em 10em">
+				<article>
+					<div class="call flex flex-center">
+						<div style="flex:2">
+							<p class="call-text-main" style="font-weight:900">Call to action! It's time!</p>
+							<p class="call-text-secondary">Sign up for our product by clicking that button over there!</p>
+						</div>
+						<div style="flex:1">
+							<button class="call-button call-text-secondary">
+								Sign Up
+							</button>
+						</div>
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer class="hero flex flex-center" style="padding:2em 10em">
+			<p class="secondary-font">Copyright © The Odin Project 2021</p>
+		</footer>
+    </body>
+</html>
